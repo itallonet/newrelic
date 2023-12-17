@@ -1,0 +1,24 @@
+{
+  "name": "newrelic-api",
+  "version": "0.0.1",
+  "description": "This solution offers a flexible and efficient approach to integrating systems with New Relic's powerful monitoring platform via API.",
+  "main": "program.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itallorian/newrelic.git"
+  },
+  "keywords": [
+    "newrelic",
+    "api",
+    "integration"
+  ],
+  "author": "Itallo Rian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itallorian/newrelic/issues"
+  },
+  "homepage": "https://github.com/itallorian/newrelic#readme"
+}
