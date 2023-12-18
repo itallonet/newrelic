@@ -1,6 +1,6 @@
 {
   "name": "itallorian-newrelic",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "This solution offers a flexible and efficient approach to integrating systems with New Relic's powerful monitoring platform via API.",
   "main": "program.js",
   "scripts": {
