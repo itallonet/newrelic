@@ -1,6 +1,10 @@
 /**
- * Log component
+ * @fileoverview Log component
  * @module components/log
+ * @requires module:constants
+ * @requires module:level
+ * @requires module:filter
+ * @requires module:newrelic
  */
 
 const constants = require("../../constants");
