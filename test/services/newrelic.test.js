@@ -1,8 +1,8 @@
 // FILEPATH: /C:/Labs/Station/products/newrelic/test/newrelic.test.js
 
 const nock = require('nock');
-const NewRelicService = require('../src/services/newrelic');
-const constants = require('../src/constants');
+const NewRelicService = require('../../src/services/newrelic');
+const constants = require('../../src/constants');
 
 describe('NewRelicService', () => {
   describe('request', () => {

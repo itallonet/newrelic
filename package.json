@@ -1,10 +1,10 @@
 {
   "name": "itallorian-newrelic",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This solution offers a flexible and efficient approach to integrating systems with New Relic's powerful monitoring platform via API.",
   "main": "program.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/itallorian/newrelic/issues"
   },
-  "homepage": "https://github.com/itallorian/newrelic#readme",
+  "homepage": "https://github.com/itallorian/newrelic/wiki",
   "devDependencies": {
     "jest": "^29.7.0",
     "nock": "^13.4.0"
