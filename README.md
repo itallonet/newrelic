@@ -11,6 +11,14 @@ You can install the library using the following command:
 npm install itallorian-newrelic
 ```
 
+## Requirements
+
+Add the following variables to your environment:
+
+`IRNR_INGESTION_KEY`: Ingestion key present in New Relic configuration
+`IRNR_SERVICE_NAME`: Name of your service
+`IRNR_HOST_NAME`: Your host name
+
 ## **Usage  Examples:**
 
 ```markdown
