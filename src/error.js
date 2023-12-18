@@ -14,5 +14,8 @@ class CustomError extends Error {
   }
 }
 
-
+/**
+ * @typedef {Object} CustomError
+ * @property {function} CustomError - Custom error class
+ */
 module.exports = CustomError;

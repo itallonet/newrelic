@@ -24,4 +24,38 @@ function processMessage(message) {
   return message;
 }
 
-module.exports = { processMessage };
+/**
+ * @param {string} str
+ * @returns {string}
+ * @description capitalize the first letter of each word
+ * @example const message = capitalizeWords('hello world');
+ * console.log(message); // Hello World
+ */
+function capitalizeWords(str) {
+  return str
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+}
+
+/**
+ * @param {string} name
+ * @returns {string}
+ * @description Format the event type name
+ * @example const eventType = eventTypeFormat('hello world');
+ * console.log(eventType); // IRNRHelloWorld
+ */
+
+function eventTypeFormat(name) {
+  if (typeof name !== "string") name = "Default";
+  name = capitalizeWords(name);
+  name = name.replace(/\s+/g, "");
+  return "IRNR" + name;
+}
+
+/**
+ * @typedef {Object} Filter
+ * @property {function} processMessage - Process the message to be sent to New Relic
+ * @property {function} eventTypeFormat - Format the event type name
+ */
+module.exports = { processMessage, eventTypeFormat };

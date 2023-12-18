@@ -43,6 +43,24 @@ class NewRelic {
       throw new CustomError("Error sending log to New Relic", error);
     }
   };
+
+  /**
+   * @method send_custom_event
+   * @description Method responsible for sending custom events to the New Relic API.
+   * @param {object} event - Event to be sent to the New Relic API.
+   * @returns {Promise<object>} - Returns the response of the request.
+   */
+  static send_custom_event = async (event) => {
+    try {
+      const response = await this.request(
+        constants.CUSTOM_EVENT_ENDPOINT,
+        event
+      );
+      return response;
+    } catch (error) {
+      throw new CustomError("Error sending custom event to New Relic", error);
+    }
+  };
 }
 
 module.exports = NewRelic;
