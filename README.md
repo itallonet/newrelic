@@ -8,22 +8,22 @@ This solution offers a flexible and efficient approach to integrating systems wi
 You can install the library using the following command:
 
 ```bash
-npm  install  itallorian-newrelic
+npm install itallorian-newrelic
 ```
-1.  **Usage  Examples:**
+
+## **Usage  Examples:**
 
 ```markdown
-Here are some basic examples of how you can use a library in your code:
-	
-	const  irNewRelic  =  require('itallorian-newrelic');
-	//  Example  1
-	irNewRelic.Log("Your Log Message"); 
+const  irNewRelic  =  require('itallorian-newrelic');
 
-	//  Example  2
-	irNewRelic.Log("Your Error Log Message",  irNewRelic.LogLevel.ERROR);
+//  Example  1
+irNewRelic.Log("Your Log Message"); 
+
+//  Example  2
+irNewRelic.Log("Your Error Log Message",  irNewRelic.LogLevel.ERROR);
 ``` 
   
-2.  **Detailed  Documentation:**
+## **Detailed  Documentation:**
 
 
 ### `Log(message, level)`
